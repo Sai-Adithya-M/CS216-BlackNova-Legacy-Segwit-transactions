@@ -1,0 +1,40 @@
+Connected to Bitcoin regtest
+Wallet loaded
+
+Generated Addresses
+A: mn8Z9m4CV64Gmz98fYet1gS3iSvVy6NzpG
+B: misYrLkDWUihDTYfghY33bwPoe58549SwM
+C: n2PbR3yPPskP6pxjibxNy2YwkYnYRERiUa
+Balance after mining: 50.00000000
+
+Funding transaction to A: d6bc10eee00ddf4efcbababe1507d0946dcb85005943fcc5daad590ee6901b3d
+
+UTXO for A
+{'txid': 'd6bc10eee00ddf4efcbababe1507d0946dcb85005943fcc5daad590ee6901b3d', 'vout': 1, 'address': 'mn8Z9m4CV64Gmz98fYet1gS3iSvVy6NzpG', 'label': '', 'scriptPubKey': '76a914488c69186b2d566389726fdca184cbebd8332a2388ac', 'amount': Decimal('10.00000000'), 'confirmations': 1, 'spendable': True, 'solvable': True, 'desc': 'pkh([c989a8ec/44h/1h/0h/0/3]0308bdf27f65eed01af2ac17c4d842b0d1c3c16262ab4ade5efe82e72c30902cd3)#73j9nf30', 'parent_descs': ['pkh([c989a8ec/44h/1h/0h]tpubDCJ8NmupjoCEZ46UgGEsPSr9qnhRyVtvEoTdBDBS3YydYtsRSo1LrTuZ8wEDg9c7gAUKFicyVXTcHroXZFhhn3FbtgR7epm7ZAobcBRa874/0/*)#smede79t'], 'safe': True}
+
+Raw Transaction A->B
+02000000013d1b90e60e59addac5fc43590085cb6d94d00715bebabafc4edf0de0ee10bcd60100000000fdffffff020065cd1d000000001976a91424cd8b052ee1db583d0028a23edd5484a57b779488acf03dcd1d000000001976a914488c69186b2d566389726fdca184cbebd8332a2388ac00000000
+
+Signed Transaction HEX
+02000000013d1b90e60e59addac5fc43590085cb6d94d00715bebabafc4edf0de0ee10bcd6010000006a47304402203c59441c4973f438373e56a4c23f3b87433a85b4559aa9a862ddbcb62cd474e90220476b1f5470025bd60f495855f66da9d728d28ecd9eeaa95c87f68ae4ff84b09201210308bdf27f65eed01af2ac17c4d842b0d1c3c16262ab4ade5efe82e72c30902cd3fdffffff020065cd1d000000001976a91424cd8b052ee1db583d0028a23edd5484a57b779488acf03dcd1d000000001976a914488c69186b2d566389726fdca184cbebd8332a2388ac00000000
+
+Decoded Transaction A->B
+{'txid': '43ce07a410238400d1bfd60d06fa1d1f99d03764675f6e948017894d77f3a2af', 'hash': '43ce07a410238400d1bfd60d06fa1d1f99d03764675f6e948017894d77f3a2af', 'version': 2, 'size': 225, 'vsize': 225, 'weight': 900, 'locktime': 0, 'vin': [{'txid': 'd6bc10eee00ddf4efcbababe1507d0946dcb85005943fcc5daad590ee6901b3d', 'vout': 1, 'scriptSig': {'asm': '304402203c59441c4973f438373e56a4c23f3b87433a85b4559aa9a862ddbcb62cd474e90220476b1f5470025bd60f495855f66da9d728d28ecd9eeaa95c87f68ae4ff84b092[ALL] 0308bdf27f65eed01af2ac17c4d842b0d1c3c16262ab4ade5efe82e72c30902cd3', 'hex': '47304402203c59441c4973f438373e56a4c23f3b87433a85b4559aa9a862ddbcb62cd474e90220476b1f5470025bd60f495855f66da9d728d28ecd9eeaa95c87f68ae4ff84b09201210308bdf27f65eed01af2ac17c4d842b0d1c3c16262ab4ade5efe82e72c30902cd3'}, 'sequence': 4294967293}], 'vout': [{'value': Decimal('5.00000000'), 'n': 0, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 24cd8b052ee1db583d0028a23edd5484a57b7794 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(misYrLkDWUihDTYfghY33bwPoe58549SwM)#m5zd6u6t', 'hex': '76a91424cd8b052ee1db583d0028a23edd5484a57b779488ac', 'address': 'misYrLkDWUihDTYfghY33bwPoe58549SwM', 'type': 'pubkeyhash'}}, {'value': Decimal('4.99990000'), 'n': 1, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 488c69186b2d566389726fdca184cbebd8332a23 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(mn8Z9m4CV64Gmz98fYet1gS3iSvVy6NzpG)#vzv8rj4d', 'hex': '76a914488c69186b2d566389726fdca184cbebd8332a2388ac', 'address': 'mn8Z9m4CV64Gmz98fYet1gS3iSvVy6NzpG', 'type': 'pubkeyhash'}}]}
+
+Broadcasted TXID A->B: 43ce07a410238400d1bfd60d06fa1d1f99d03764675f6e948017894d77f3a2af
+
+UTXO for B
+{'txid': '43ce07a410238400d1bfd60d06fa1d1f99d03764675f6e948017894d77f3a2af', 'vout': 0, 'address': 'misYrLkDWUihDTYfghY33bwPoe58549SwM', 'label': '', 'scriptPubKey': '76a91424cd8b052ee1db583d0028a23edd5484a57b779488ac', 'amount': Decimal('5.00000000'), 'confirmations': 1, 'spendable': True, 'solvable': True, 'desc': 'pkh([c989a8ec/44h/1h/0h/0/4]03140034273813766a8fb1691434cf6bdeeebef8b2503c804feff130495d78d93c)#mnee6kwy', 'parent_descs': ['pkh([c989a8ec/44h/1h/0h]tpubDCJ8NmupjoCEZ46UgGEsPSr9qnhRyVtvEoTdBDBS3YydYtsRSo1LrTuZ8wEDg9c7gAUKFicyVXTcHroXZFhhn3FbtgR7epm7ZAobcBRa874/0/*)#smede79t'], 'safe': True}
+
+Raw Transaction B->C
+0200000001afa2f3774d891780946e5f676437d0991f1dfa060dd6bfd100842310a407ce430000000000fdffffff020084d717000000001976a914e4f64cef67f6a5f548a81ba85ff8a729f3a26c7588acf0b9f505000000001976a91424cd8b052ee1db583d0028a23edd5484a57b779488ac00000000
+
+Signed Transaction B->C HEX
+0200000001afa2f3774d891780946e5f676437d0991f1dfa060dd6bfd100842310a407ce43000000006a4730440220044254019c5b3c0522540f1dd173f85df0d69cbf1d0c1b0293fe78ef212938c902200679bb9e9fc2c34b1b8da1470b7c4221b50bba01ff2f343b115a141ed27f304d012103140034273813766a8fb1691434cf6bdeeebef8b2503c804feff130495d78d93cfdffffff020084d717000000001976a914e4f64cef67f6a5f548a81ba85ff8a729f3a26c7588acf0b9f505000000001976a91424cd8b052ee1db583d0028a23edd5484a57b779488ac00000000
+
+Decoded Transaction B->C
+{'txid': '61d545bb6facf91ff42ccd6910e0042ac42d61694b793fbb3d1b21cb51cec2ad', 'hash': '61d545bb6facf91ff42ccd6910e0042ac42d61694b793fbb3d1b21cb51cec2ad', 'version': 2, 'size': 225, 'vsize': 225, 'weight': 900, 'locktime': 0, 'vin': [{'txid': '43ce07a410238400d1bfd60d06fa1d1f99d03764675f6e948017894d77f3a2af', 'vout': 0, 'scriptSig': {'asm': '30440220044254019c5b3c0522540f1dd173f85df0d69cbf1d0c1b0293fe78ef212938c902200679bb9e9fc2c34b1b8da1470b7c4221b50bba01ff2f343b115a141ed27f304d[ALL] 03140034273813766a8fb1691434cf6bdeeebef8b2503c804feff130495d78d93c', 'hex': '4730440220044254019c5b3c0522540f1dd173f85df0d69cbf1d0c1b0293fe78ef212938c902200679bb9e9fc2c34b1b8da1470b7c4221b50bba01ff2f343b115a141ed27f304d012103140034273813766a8fb1691434cf6bdeeebef8b2503c804feff130495d78d93c'}, 'sequence': 4294967293}], 'vout': [{'value': Decimal('4.00000000'), 'n': 0, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 e4f64cef67f6a5f548a81ba85ff8a729f3a26c75 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(n2PbR3yPPskP6pxjibxNy2YwkYnYRERiUa)#pkxwz9mg', 'hex': '76a914e4f64cef67f6a5f548a81ba85ff8a729f3a26c7588ac', 'address': 'n2PbR3yPPskP6pxjibxNy2YwkYnYRERiUa', 'type': 'pubkeyhash'}}, {'value': Decimal('0.99990000'), 'n': 1, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 24cd8b052ee1db583d0028a23edd5484a57b7794 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(misYrLkDWUihDTYfghY33bwPoe58549SwM)#m5zd6u6t', 'hex': '76a91424cd8b052ee1db583d0028a23edd5484a57b779488ac', 'address': 'misYrLkDWUihDTYfghY33bwPoe58549SwM', 'type': 'pubkeyhash'}}]}
+
+Broadcasted TXID B->C: 61d545bb6facf91ff42ccd6910e0042ac42d61694b793fbb3d1b21cb51cec2ad
+
+Final Balance: 199.99978530
